@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Brick Breaking Game</title>
+    <style>
+        * {
+          padding: 0;
+          margin: 0;
+        } 
+
+        canvas {
+          background: #eee;
+          display: block;
+          margin: 0 auto;
+          height: 80vh;
+          width: 90vw;
+          margin-top: 2vh;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 3em;
+            margin-top: 1vh;
+            color:#FF3333;
+            font-style: italic;
+        }
+
+        #result {
+            color:#0080ff;
+        }
+    </style>
+  </head>
+
+    <body>
+        <h1>The Brick Breaking Game </h1>
+        <canvas id="myCanvas" width="1850" height="950"></canvas>
+        <h1 id="result"></h1>
+        <script src="BrickBreakingGame.js"></script>
+    </body>
+</html>
